@@ -9,14 +9,14 @@ jackson:
  
 spring:
 profiles: local,default
-traincapacity: 5
+traincapacity: 1000
 
 
 datasource:
   cusrapp:
-    url: jdbc:mysql://localhost:3306/cusr
-    username: root
-    password: abcd
+    url: jdbc:mysql://0.0.0.0:3306/cusr
+    username: gaurav
+    password: password
     driverClassName: com.mysql.jdbc.Driver
     defaultSchema:
     maxPoolSize: 20
