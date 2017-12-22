@@ -1,13 +1,13 @@
 var app = angular.module('crudApp',['ui.router','ngStorage','720kb.datepicker']);
 
 app.constant('urls', {
-    BASE: 'http://0.0.0.0:8080/cusr',
-    USER_SERVICE_API : 'http://0.0.0.0:8080/cusr/api/user/',
-    TRAIN_SEARCH_API : 'http://0.0.0.0:8080/cusr/api/search',
-    TICKET_SEARCH_API : 'http://0.0.0.0:8080/cusr/api/ticket/',
-    TICKET_AVAIL_API: 'http://0.0.0.0:8080/cusr/api/availability/',
-    	TRAIN_CANCEL_API: 'http://0.0.0.0:8080/cusr/api/trainCancellation/',
-    	TICKET_CANCEL_API : 'http://0.0.0.0:8080/cusr/api/cancel/'
+    BASE: 'http://ec2-52-53-244-181.us-west-1.compute.amazonaws.com:8080/cusr',
+    USER_SERVICE_API : 'http://ec2-52-53-244-181.us-west-1.compute.amazonaws.com:8080/cusr/api/user/',
+    TRAIN_SEARCH_API : 'http://ec2-52-53-244-181.us-west-1.compute.amazonaws.com:8080/cusr/api/search',
+    TICKET_SEARCH_API : 'http://ec2-52-53-244-181.us-west-1.compute.amazonaws.com:8080/cusr/api/ticket/',
+    TICKET_AVAIL_API: 'http://ec2-52-53-244-181.us-west-1.compute.amazonaws.com:8080/cusr/api/availability/',
+    	TRAIN_CANCEL_API: 'http://ec2-52-53-244-181.us-west-1.compute.amazonaws.com:8080/cusr/api/trainCancellation/',
+    	TICKET_CANCEL_API : 'http://ec2-52-53-244-181.us-west-1.compute.amazonaws.com:8080/cusr/api/cancel/'
 	
 //	 BASE: 'http://localhost:8080/',
 //	 USER_SERVICE_API : 'http://localhost:8080/api/user/',
